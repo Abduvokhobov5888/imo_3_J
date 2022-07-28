@@ -37,7 +37,7 @@
                         android:layout_marginBottom="3dp"
                         android:layout_marginRight="3dp"
                         app:shapeAppearanceOverlay="@style/circle"
-                        android:src="@drawable/f" />
+                        android:src="@drawable/foto2" />
 
                 </LinearLayout>
 

@@ -27,27 +27,27 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setLayoutManager(new GridLayoutManager(this, 1));
 
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
-        chat.add( new Chat(R.drawable.f, 3, "Abbosbek Abduvoxobov"));
-        chat.add(new Chat(R.drawable.nissan, 2, "Omonboyev Abdulhakim"));
-        chat.add(new Chat(R.drawable.volkswagen, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
+        chat.add( new Chat(R.drawable.foto2, 3, "Abbosbek Abduvoxobov"));
+        chat.add(new Chat(R.drawable.foto4, 2, "Omonboyev Abdulhakim"));
+        chat.add(new Chat(R.drawable.foto3, 0, "Muqumjonov Yunusbek"));
 
         ChatAdapter adapter = new ChatAdapter(chat, this);
         recyclerView.setAdapter(adapter);
